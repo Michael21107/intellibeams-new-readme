@@ -11,15 +11,15 @@ The <span style="color:lightblue; text-shadow: 0 0 20px blue; font-size: 15px;">
     - Speed above a threshold 30MPH default.
     - Driving on designated "dark roads" with low ambient lighting.
     - No other vehicles are detected in front within a specified detection distance.
-    - Speed, Roads, Times and Distance are specified in the ini file.
+    - Speed, Roads, Times, and Distance are specified in the INI file.
 
 - **(2.) Vehicle Detection:**
-  - Scans nearby vehicles and activates high beams or adjusts other lighting as needed based on a set proximity (Player or AI). Aircrafts, Boats will not use IntelliBeams
+  - Scans nearby vehicles and activates high beams or adjusts other lighting as needed based on a set proximity (Player or AI). Aircraft, Boats will not use IntelliBeams
 
 - **(3.) Time-Based Headlights:**
-  - Headlights automatically turn on/off at a set hour & minute specified in the ini file.
+  - Headlights automatically turn on/off at a set hour & minute specified in the INI file.
   - The lights will turn off during the daytime.
-  - Times can be configured in the ini file.
+  - Times can be configured in the INI file.
 
 - **(4.) Realistic Lights:**
   - <b>Authentic Number Plate Illumination:</b>
@@ -30,7 +30,7 @@ The <span style="color:lightblue; text-shadow: 0 0 20px blue; font-size: 15px;">
     - Activates automatically when the vehicle speed exceeds 60 MPH, simulating a high-speed emergency stop.
   - <b>Dynamic Brake Lights:</b>
     - Brake lights are now automatically triggered when the vehicle comes to a complete stop, enhancing realism by reflecting the vehicle's deceleration state.
-  - Emergency Braking Speed, Dynamic Brake Lights, are specified in the ini file.
+  - Emergency Braking Speed, Dynamic Brake Lights, are specified in the INI file.
 ___
 # ⚡️ Performance Advisory
 
@@ -44,7 +44,7 @@ IntelliBeams is optimized for performance, but if any issues arise, please repor
 1. Simply drag and drop the `scripts` folder into the root directory of your Grand Theft Auto V installation.
 
 # ⚙️ How to Use
-The script will activate automatically in-game. However, you also have the option to customize the settings via the INI file in GTAV/scripts/Code-Master-Configs, that appears once you ran the mod for the first time.
+The script will activate automatically in-game. However, you also have the option to customize the settings via the INI file in GTAV/scripts/Code-Master-Configs, which appears once you run the mod for the first time.
 
 # 📋 Versions & Changelog
 
@@ -54,11 +54,11 @@ The script will activate automatically in-game. However, you also have the optio
 >
 >- <span style="color:green"> 💡 <span style="font-weight: bold; color: white;">Realistic Lights:</span> Implemented real lights (Number Plate Supported at the moment).</span>
 >
->- <span style="color:green"> 🔑 <span style="font-weight: bold; color: white;">Engine Key Function:</span> Introduced a new Engine Key functionality, allowing players to toggle the engine on and off using a specific keybinding editable in the ini file (e.g., <code>E</code> to start/stop). Adding an extra layer of realism and immersion for vehicle control. When you get into a vehicle you have to toggle engine using the EngineKeif set and if AllowEngineControl is true in the ini.</span>
+>- <span style="color:green"> 🔑 <span style="font-weight: bold; color: white;">Engine Key Function:</span> Introduced a new Engine Key functionality, allowing players to toggle the engine on and off using a specific keybinding editable in the INI file (e.g., <code>E</code> to start/stop). Adding an extra layer of realism and immersion for vehicle control. When you get into a vehicle you have to toggle the engine using the EngineKeif set and if AllowEngineControl is true in the INI.</span>
 >
->- <span style="color:green"> 🔑 <span style="font-weight: bold; color: white;">Headlight Key Functionality:</span> A new feature has been implemented, enabling players to control vehicle headlights with the default game key, <code>H</code>. This allows for seamless toggling of headlights on or off during gameplay. Engine has to be on for this to work.</span>
+>- <span style="color:green"> 🔑 <span style="font-weight: bold; color: white;">Headlight Key Functionality:</span> A new feature has been implemented, enabling players to control vehicle headlights with the default game key, <code>H</code>. This allows for seamless toggling of headlights on or off during gameplay. The engine has to be on for this to work.</span>
 >
->- <span style="color:green"> 🛑 <span style="font-weight: bold; color: white;">Emergency Brake (Beta):</span> Added a beta version of Emergency Brake functionality, which triggers brake light flashing when the emergency brake is activated or the player is speeding in certain conditions. This adds a more realistic emergency brake system, allowing players to use <code>S</code> for braking with enhanced visual feedback. <b style="color: white;">Please give us feedback on this so we can improve this in future updates.</b></span>
+>- <span style="color:green"> 🛑 <span style="font-weight: bold; color: white;">Emergency Brake (Beta):</span> Added a beta version of Emergency Brake functionality, which triggers brake light flashing when the emergency brake is activated or the player is speeding in certain conditions. This adds a more realistic emergency brake system, allowing players to use <code>S</code> for braking with enhanced visual feedback. <b style="color: white;">Please give us feedback so we can improve this in future updates.</b></span>
 >
 >- <span style="color:green"> ⚡ <span style="font-weight: bold; color: white;">Enhanced High Beam Flash for Players & AI:</span> Improved flash patterns and delay settings to deliver a more realistic lighting effect.</span>
 >
